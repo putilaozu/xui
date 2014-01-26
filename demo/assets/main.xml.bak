@@ -1,0 +1,92 @@
+﻿<Window size="800,500" caption="0,0,0,30" sizebox="4,4,4,4" mininfo="380,400" roundcorner="5,5,5,5">
+<Font name="SimSun" size="16" bold="false" default="true" />
+<Font name="SimSun" size="12" bold="true"/>
+<Font name="SimSun" size="20" bold="true"/>
+<Font name="icon.dbf" size="20" bold="true"/>
+<Font name="SimSun" size="18" bold="true"/>
+<Font name="SimSun" size="64" bold="true"/>
+
+<VerticalLayout bkcolor="#f0ffffff" hole="true"  bordersize="2" bordercolor="#FF0934DA">
+		<TabFolder name="tab1" dock="left" style="2">
+		<VerticalLayout  text="Navigate" childpadding="10" >
+			<BreadCrumb font="2" style="0" width="480" height="32" text="/首页/C:/Windows/System32" name="net_addr"/>
+			<BreadCrumb font="2" style="1" width="380" height="32" text="/首页/C:/Windows/System32" name="net_addr"/>
+			<BreadCrumb font="2" style="2" width="280" height="32" text="/首页/C:/Windows/System32" name="net_addr"/>
+			<PagiNation width="300" height="32" buttonsize="24,24" childpadding="4" min="1" max="20" showbutton="true" style="0"/>
+			<PagiNation width="300" height="32" buttonsize="24,24" childpadding="4" min="1" max="20" showbutton="true" style="2"/>
+			<PagiNation width="300" height="32" buttonsize="8,8" childpadding="12" min="1" max="5" showbutton="false" style="1"/>
+		</VerticalLayout>		
+		<VerticalLayout  text="Button"  inset="10,10,10,10" vscrollbar="true" mouse="true" gesture_detector="true">
+			<HorizontalLayout height="44" childpadding="-4">
+				<Option group="g" text="0-Round" bkcolor="0" textcolor="#f0404040" bordersize="1" width="100" height="32" borderround="4,4,true,false,true,false" />
+				<Option group="g" text="1-Normal" bkcolor="0" textcolor="#f0404040" bordersize="1" width="100" height="32" />
+				<Option group="g" text="2-Round" bkcolor="0" textcolor="#f0404040" bordersize="1" width="100" height="32" borderround="4,4,false,true,false,true" />
+			</HorizontalLayout>
+			<HorizontalLayout height="44" childpadding="-4">
+				<Option group="g" text="0-圆角按钮" bkcolor="0" textcolor="#f0404040" bordersize="1" width="100" height="32" borderround="6,6,true,true,false,false" />
+				<Option group="g" text="1-普通按钮" bkcolor="0" textcolor="#f0404040" bordersize="1" width="100" height="32" borderround="6,6,true,true,false,false"  />
+				<Option group="g" text="2-圆角按钮" bkcolor="0" textcolor="#f0404040" bordersize="1" width="100" height="32" borderround="6,6,true,true,false,false" />
+			</HorizontalLayout>			
+			<HorizontalLayout height="44" inset="4,4,4,4" childpadding="4">
+				<Button name="bn01" font="3" style="1" text="N" width="32" height="32" />
+				<Button name="bn02" font="3" style="1" text="M" width="32" height="32" />
+				<Button name="bn03" font="3" style="1" text="K" width="32" height="32" />
+				<Button name="bn04" font="3" style="1" text="j" width="32" height="32" />
+				<Button name="bn05" font="3" style="1" text="k" width="32" height="32" />
+			</HorizontalLayout>
+			<HorizontalLayout height="44" inset="4,4,4,4" childpadding="4">
+				<Option name="bn06" group="b" font="3" style="1" text="N" width="32" height="32" />
+				<Option name="bn07" group="b" font="3" style="1" text="M" width="32" height="32" />
+				<Option name="bn08" group="b" font="3" style="1" text="K" width="32" height="32" />
+				<Option name="bn09" group="b" font="3" style="1" text="j" width="32" height="32" />
+				<Option name="bn10" group="b" font="3" style="1" text="k" width="32" height="32" />
+			</HorizontalLayout>
+			<HorizontalLayout height="180" inset="4,4,4,4" childpadding="4">
+				<VerticalLayout width="140" bkcolor="#FFF0F0F0" inset="10,10,10,10" childpadding="4" align="center" borderround="4,4">
+					<Option text="Option 01" group="a" width="100" height="32"/>
+					<Option text="Option 02" group="a" width="100" height="32" />
+					<Option text="Option 03" group="a" width="100" height="32" />
+				</VerticalLayout>
+				<VerticalLayout width="140" bkcolor="#FFF0F0F0" inset="10,10,10,10" childpadding="4" align="center" borderround="4,4" >
+					<Option text="1-单选择一" borderround="4,4" group="c" width="100" height="32" />
+					<Option text="2-单选择二" borderround="4,4" group="c" width="100" height="32" />
+					<Option text="3-单选择三" borderround="4,4" group="c" width="100" height="32" />
+					<Option text="4-单选择三" borderround="4,4" group="c" width="100" height="32" />
+					<Option text="5-单选择三" borderround="4,4" group="c" width="100" height="32" />
+				</VerticalLayout>
+			</HorizontalLayout>
+			<VerticalLayout height="180" width="240" bkcolor="#F0F0B0C0" inset="10,10,10,10" childpadding="4" align="center" borderround="4,4" >
+				<Option style="99" text="9-常规的单项选择1" group="d" width="120" height="32"  bordersize="1" bordercolor="#ffff0000" />
+				<Option style="99" text="a-超长的单项选择，可以折行" group="d" width="180" height="32" />
+				<Option style="99" text="b-单选择三" group="d" width="120" height="32" />
+			</VerticalLayout>
+			<VerticalLayout height="180" width="140" bkcolor="#FFFFFFFF" inset="4,4,4,4" align="center" borderround="4,4" >
+				<Option style="98" text="热歌飙升榜" group="d" height="32" />
+				<Option style="97" text="全球Top500" group="d" height="32" />
+				<Option style="96" text="编辑推荐榜" group="d" height="36" />
+				<Option style="95" text="华语新歌" group="d" height="36" />
+			</VerticalLayout>
+			<HorizontalLayout height="36" childpadding="-4" >
+				<Option style="91" text="推荐" group="d" height="36" />
+				<Option style="91" text="电台" group="d" height="36" />
+				<Option style="91" text="排行榜" group="d" height="36" />
+				<Option style="91" text="歌手" group="d" height="36" />
+				<Option style="91" text="分类" group="d" height="36" />
+				<Option style="91" text="专辑" group="d" height="36" />
+				<Option style="91" text="精选" group="d" height="36" />
+				<Option style="91" text="好歌" group="d" height="36" />
+			</HorizontalLayout>
+			<HorizontalLayout height="180" inset="4,4,4,4" childpadding="4">
+				<VerticalLayout width="140" bkcolor="#FFFFFFFF" inset="4,4,4,4" align="center" borderround="4,4" childpadding="-4" >
+					<Option style="93" text="热歌飙升榜" group="d" height="32" />
+					<Option style="93" text="全球Top500" group="d" height="32" />
+					<Option style="93" text="编辑推荐榜" group="d" height="36" />
+					<Option style="93" text="华语新歌" group="d" height="36" />
+				</VerticalLayout>
+			</HorizontalLayout>
+			<Option text="CheckBox 01" width="80" height="32" />
+			<Option text="CheckBox 02" style="99" textcolor="#f0404040" width="80" height="32" />
+		</VerticalLayout>
+		</TabFolder>
+</VerticalLayout>
+</Window>
