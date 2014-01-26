@@ -1,0 +1,42 @@
+<config>
+	<VALUE name="layout" val="auto" />
+	<layouts>
+		<layout key="phone" value="main_phone.xml" width="533" height="320" fontsize="12" />
+		<layout key="pad" value="main_pad.xml" width="960" height="600" fontsize="16" />
+		<layout key="tv" value="main_tv.xml" width="1280" height="720" fontsize="16" />
+		<layout key="pc" value="main.xml" width="1280" height="720" fontsize="16" />
+	</layouts>
+	<depends path="assets/">
+		<item url="main.xml" local="main.xml" />
+		<item url="SmallIcons.png" />
+		<item url="1.jpg" />
+		<item url="2.jpg" />
+		<item url="3.jpg" />
+		<item url="4.jpg" />
+		<item url="5.jpg" />
+		<item url="6.jpg" />
+		<item url="7.jpg" />
+		<item url="8.jpg" />
+		<item url="9.jpg" />
+		<item url="10.jpg" />
+		<item url="11.jpg" />
+		<item url="12.jpg" />
+		<item url="13.jpg" />
+		<item url="14.jpg" />
+		<item url="15.jpg" />
+		<item url="16.jpg" />
+		<item url="17.jpg" />
+		<item url="18.jpg" />
+		<item url="19.jpg" />
+		<item url="20.jpg" />
+		<item url="21.jpg" />
+		<item url="22.jpg" />
+		<item url="23.jpg" />
+		<item url="24.jpg" />
+		<item url="test.jpg" />
+		<item url="fonts/icon.dbf" />
+		<item url="fonts/DroidSansFallback.ttf.gz" dfile="fonts/DroidSansFallback.ttf" decompress="gzip" />
+	</depends>
+	<VALUE name="version" val="1.0" />
+	<VALUE name="channel" val="http://www.cbook.biz/CloudDoc/channel.xml" />
+</config>
